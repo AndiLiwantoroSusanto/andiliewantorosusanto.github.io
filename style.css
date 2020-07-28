@@ -5,7 +5,7 @@ body {
 }
 .nav {
   position: fixed;
-  top: 0;
+  top: 1rem;
   display: flex;
   flex-direction: row-reverse;
   width: 80%;
@@ -29,12 +29,14 @@ body {
   justify-content: center;
 }
 .home__aboutMe {
+  letter-spacing: 2px;
 }
 .home__buttons {
   margin-top: 18px;
 }
 .home__aboutMe__header {
   color: #707070;
+  margin: 0;
   font-size: 4.5rem;
 }
 .home__aboutMe_greet {
@@ -43,11 +45,14 @@ body {
 }
 .home__aboutMe__desc {
   color: #707070;
+  max-width: 35rem;
   margin-top: 1rem;
   font-size: 0.8rem;
 }
 .home__aboutMe__detail {
   color: #707070;
+  font-weight: 400;
+  margin: 0;
   font-size: 1.5rem;
 }
 .button {

@@ -3,6 +3,16 @@ body {
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.illustration {
+  position: absolute;
+  top: 10vh;
+  right: 0;
+  z-index: -1;
+}
+.illustration > img {
+  width: 40vw;
+  height: 80vh;
+}
 .nav {
   position: fixed;
   top: 1rem;

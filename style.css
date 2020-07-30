@@ -182,12 +182,14 @@ body {
 }
 .experience__tabs__company__list__item {
   padding: 1rem;
+  font-weight: 500;
 }
 .experience__tabs__company__list {
   flex-grow: 2;
 }
 .experience__tabs__company__list__item--selected {
   background-color: #ff6a07;
+  color: white;
 }
 .experience__nav {
   display: flex;
@@ -201,6 +203,7 @@ body {
   border: #707070 1px solid;
   border-bottom: 0;
   position: relative;
+  z-index: -1;
   cursor: pointer;
   transition: margin-top 275ms ease;
 }

@@ -1,107 +1,68 @@
-body {
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  line-height: 1.6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media only screen and (max-width: 999px) {
-  .illustration {
-    display: none;
-  }
-  .home {
-    width: 80%;
-  }
-}
-@media only screen and (min-width: 1000px) {
-  .illustration {
-    background-image: url("home_ilus.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: absolute;
-    left: 60%;
-    width: 40%;
-    height: 100vh;
-    z-index: -1;
-  }
-  .home {
-    width: 60%;
-  }
+.home {
+  min-height: 100vh;
+  padding: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-@media only screen and (max-width: 768px) {
-  .nav {
-    justify-content: space-evenly;
-    bottom: 0;
-    background-color: white;
-    border-top: #9e9e9e36 1px solid;
-  }
-  .nav__menu {
-    padding: 2rem 1rem;
-  }
-  .home__aboutMe__header {
-    line-height: normal;
-  }
-}
-@media only screen and (min-width: 769px) {
-  .nav {
-    justify-content: flex-end;
-    background-color: rgb(254, 254, 254);
-    border-bottom: #dadada69 1px solid;
-  }
-  .nav__menu {
-    padding: 2rem 2rem;
-  }
-}
-.nav {
-  position: fixed;
-  display: flex;
-  width: 80%;
-  padding: 0 10%;
-}
-.nav__menu {
-  font-weight: bold;
-  cursor: pointer;
-}
-.nav__menu--selected {
-  color: #ff6a07;
-}
-.home {
-  height: 100vh;
-  padding: 0 10%;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-}
 .home__aboutMe {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 1.6;
 }
-.home__buttons {
-  margin-top: 18px;
-}
+
 .home__aboutMe__header {
-  color: #707070;
-  margin: 0;
-  font-size: 4.5rem;
+  line-height: normal;
+  color: #6e6e6e;
+  margin: 1rem 0;
+  font-size: 3rem;
+  line-height: 1.2;
 }
-.home__aboutMe_greet {
+
+.home__aboutMe__greet {
   color: #707070;
   font-size: 0.8rem;
 }
+
 .home__aboutMe__desc {
   color: #707070;
   max-width: 35rem;
   margin-top: 1rem;
   font-size: 0.8rem;
 }
+
 .home__aboutMe__detail {
   color: #707070;
   font-weight: 400;
   margin: 0;
   font-size: 1.5rem;
 }
+
+.home__buttons {
+  margin-top: 18px;
+}
+
 .button {
   padding: 0.5rem 1rem;
   color: #707070;
@@ -110,20 +71,24 @@ body {
   border-radius: 5%;
   cursor: pointer;
 }
+
 .button--primary {
   background-color: #ff6a07;
   color: white;
   font-weight: 200;
   border: none;
 }
+
 .button--secondary {
   border: #ff6a07 solid 1px;
   color: #ff6a07;
 }
+
 .highlight {
   position: relative;
   z-index: -1;
 }
+
 .highlight::after {
   content: "";
   position: absolute;
@@ -134,82 +99,22 @@ body {
   bottom: 0;
   background-color: #ff6a077e;
 }
-.experience {
-  height: 100vh;
-  padding: 0 10%;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-.experience__tabs {
-  display: flex;
-  border: #707070 1px solid;
-  border-radius: 5px;
-}
-.experience__tabs__company {
-  background-color: white;
-  border-right: #707070 1px solid;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-.experience__tabs__desc {
-  padding: 1rem;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.backgroundExperience {
-  width: 100%;
+
+.illustration {
+  background-image: url("home_ilus.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   position: absolute;
-  user-select: none;
+  left: 50%;
+  width: 50%;
+  height: 100vh;
   z-index: -1;
-  font-size: 18rem;
-  color: #d6d6d656;
-  overflow: hidden;
-  white-space: nowrap;
 }
-.experience__tabs__company__up,
-.experience__tabs__company__bottom {
-  padding: 0.5rem;
-  text-align: center;
-  font-weight: bold;
-  color: #ff6a07;
+
+@media (max-width: 768px) {
+  .illustration {
+    display: none;
+  }
 }
-.experience__tabs__company__list__item {
-  padding: 1rem;
-  font-weight: 500;
-}
-.experience__tabs__company__list {
-  flex-grow: 2;
-}
-.experience__tabs__company__list__item--selected {
-  background-color: #ff6a07;
-  color: white;
-}
-.experience__nav {
-  display: flex;
-  align-content: flex-start;
-  width: 100%;
-  padding-left: 10%;
-}
-.experience__nav__items {
-  padding: 1rem;
-  background-color: white;
-  border: #707070 1px solid;
-  border-bottom: 0;
-  position: relative;
-  z-index: -1;
-  cursor: pointer;
-  transition: margin-top 275ms ease;
-}
-.experience__nav__items:not(:first-child) {
-  margin-left: -0.5rem;
-}
-.experience__nav__items:hover {
-  margin-top: -2rem;
-}
+/*# sourceMappingURL=style.css.map */

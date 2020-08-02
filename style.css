@@ -134,7 +134,8 @@ body {
 }
 
 .experience__tabs__title {
-  font-size: 1rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .experience__tabs__company {
@@ -145,6 +146,7 @@ body {
 
 .experience__tabs__company__item {
   padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
 .experience__tabs__company__item--active {
@@ -152,15 +154,28 @@ body {
 }
 
 .experience__tabs__description__item__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .experience__tabs__description__item__additional {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .experience__tabs__description__item__work {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.experience__tabs__description__item__work li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.experience__tabs__description__item__work li:before {
+  content: ">";
+  padding-right: 5px;
 }
 
 @media (max-width: 768px) {

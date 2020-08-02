@@ -110,7 +110,8 @@ body {
         color: $secondary-color;
 
         &__title {
-            font-size: 1rem;
+            font-size: 3rem;
+            margin-bottom: 1rem;
         }
 
         &__company {
@@ -118,7 +119,7 @@ body {
 
             &__item {
                 padding : 0.5rem 1rem;
-            
+                cursor: pointer;
                 &--active {
                     border-bottom: $primary-color 1px solid;
                 }
@@ -128,13 +129,26 @@ body {
         &__description {
             &__item {
                 &__title {
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                 }
                 &__additional {
-                    font-size: 1rem;
+                    font-size: 0.8rem;
                 }
                 &__work {
-                    font-size: 1.5rem;
+                    font-size: 1rem;
+                    list-style: none;
+                    margin-left: 0;
+                    padding-left: 0;
+
+                    li {
+                        padding-left: 1em;
+                        text-indent: -1em;
+                    }
+                    
+                    li:before {
+                        content: ">";
+                        padding-right: 5px;
+                    }
                 }
             }
         }

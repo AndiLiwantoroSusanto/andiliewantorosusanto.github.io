@@ -113,8 +113,9 @@ body {
             font-weight: bold;
             padding: 0 1rem;
             font-size: 3rem;
+            transition: color ease-in 0.5s;
             cursor: pointer;
-            color: $primary-color;
+            color: $secondary-color;
         }
 
         &__company {
@@ -167,20 +168,28 @@ body {
                 }
             }
         }
-        
     }
-
+    &:hover {
+        .experience{
+            &__tabs {
+                &__title {
+                    color: $primary-color;
+                }
+            }
+        }    
+    }
 }
 .pill {
     border-radius: 100px;
-    border: rgb(128, 128, 128) 1px solid;
-    background-color: rgb(228, 228, 228);
-    color: $secondary-color;
+    border: $primary-color 1px solid;
+    background-color: white;
+    color: $primary-color;
     padding: 0 0.5rem;
 }
 .project {
     min-height: 100vh;
     max-width: 80%;
+    color: $secondary-color;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -193,7 +202,6 @@ body {
         font-size: 3rem;
         color: $secondary-color;
         font-weight: bold;
-        color: $primary-color;
     }
 
     &__item {
@@ -205,7 +213,7 @@ body {
 
         &__image {
             img {
-                border: $primary-color 5px solid;
+                border: $secondary-color 5px solid;
                 border-radius: 5px;
             }
         }
@@ -213,11 +221,12 @@ body {
         &__desc {
             &__name {
                 font-size: 2.5rem;
+                color: rgb(32, 32, 32);
             }
             &__stack {
                 display: flex;
                 font-size: 0.75rem;
-                
+                margin-bottom: 1rem;
                 * {
                     margin-right: 0.2rem;
                 }

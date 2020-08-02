@@ -138,8 +138,10 @@ body {
   font-weight: bold;
   padding: 0 1rem;
   font-size: 3rem;
+  -webkit-transition: color ease-in 0.5s;
+  transition: color ease-in 0.5s;
   cursor: pointer;
-  color: #ff6a07;
+  color: #707070;
 }
 
 .experience__tabs__company {
@@ -200,17 +202,22 @@ body {
   padding-right: 5px;
 }
 
+.experience:hover .experience__tabs__title {
+  color: #ff6a07;
+}
+
 .pill {
   border-radius: 100px;
-  border: gray 1px solid;
-  background-color: #e4e4e4;
-  color: #707070;
+  border: #ff6a07 1px solid;
+  background-color: white;
+  color: #ff6a07;
   padding: 0 0.5rem;
 }
 
 .project {
   min-height: 100vh;
   max-width: 80%;
+  color: #707070;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -234,7 +241,6 @@ body {
   font-size: 3rem;
   color: #707070;
   font-weight: bold;
-  color: #ff6a07;
 }
 
 .project__item {
@@ -253,12 +259,13 @@ body {
 }
 
 .project__item__image img {
-  border: #ff6a07 5px solid;
+  border: #707070 5px solid;
   border-radius: 5px;
 }
 
 .project__item__desc__name {
   font-size: 2.5rem;
+  color: #202020;
 }
 
 .project__item__desc__stack {
@@ -266,6 +273,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   font-size: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 .project__item__desc__stack * {

@@ -113,6 +113,8 @@ body {
             font-weight: bold;
             padding: 0 1rem;
             font-size: 3rem;
+            cursor: pointer;
+            color: $primary-color;
         }
 
         &__company {
@@ -191,6 +193,7 @@ body {
         font-size: 3rem;
         color: $secondary-color;
         font-weight: bold;
+        color: $primary-color;
     }
 
     &__item {

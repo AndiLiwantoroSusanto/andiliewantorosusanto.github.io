@@ -126,14 +126,16 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  letter-spacing: 1px;
 }
 
 .experience__tabs {
-  max-width: 80%;
+  max-width: 768px;
   color: #707070;
 }
 
 .experience__tabs__title {
+  padding: 0.5rem 1rem;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
@@ -142,6 +144,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0.5rem 1rem;
 }
 
 .experience__tabs__company__item {
@@ -153,12 +156,18 @@ body {
   border-bottom: #ff6a07 1px solid;
 }
 
+.experience__tabs__description {
+  padding: 0.5rem 1rem;
+}
+
 .experience__tabs__description__item__title {
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .experience__tabs__description__item__additional {
   font-size: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .experience__tabs__description__item__work {

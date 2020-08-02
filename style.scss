@@ -104,19 +104,20 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-
+    letter-spacing: 1px;
     &__tabs {
-        max-width: 80%;
+        max-width: 768px;
         color: $secondary-color;
 
         &__title {
+            padding: 0.5rem 1rem;
             font-size: 3rem;
             margin-bottom: 1rem;
         }
 
         &__company {
             display: flex;
-
+            padding: 0.5rem 1rem;
             &__item {
                 padding : 0.5rem 1rem;
                 cursor: pointer;
@@ -127,12 +128,15 @@ body {
         }
 
         &__description {
+            padding : 0.5rem 1rem;
             &__item {
                 &__title {
                     font-size: 1.5rem;
+                    font-weight: bold;
                 }
                 &__additional {
                     font-size: 0.8rem;
+                    margin-bottom: 1rem;
                 }
                 &__work {
                     font-size: 1rem;

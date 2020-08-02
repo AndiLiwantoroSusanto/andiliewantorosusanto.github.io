@@ -1,5 +1,6 @@
 $font-stack : "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $primary-color : #ff6a07;
+$secondary-color : #707070;
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,24 +24,25 @@ body {
 
         &__header {
             line-height: normal;
-            color: #6e6e6e;
+            color: $secondary-color;
+            font-weight: bold;
             margin: 1rem 0;
             font-size: 3rem;
             line-height: 1.2;
         }
 
         &__greet {
-            color: #707070;
+            color: $secondary-color;
             font-size: 0.8rem;
         }
         &__desc {
-            color: #707070;
+            color: $secondary-color;
             max-width: 35rem;
             margin-top: 1rem;
             font-size: 0.8rem;
         }
         &__detail {
-            color: #707070;
+            color: $secondary-color;
             font-weight: 400;
             margin: 0;
             font-size: 1.5rem;
@@ -53,21 +55,21 @@ body {
 }
 .button {
     padding: 0.5rem 1rem;
-    color: #707070;
+    color: $secondary-color;
     background-color: white;
-    border: #707070 solid 1px;
+    border: $secondary-color solid 1px;
     border-radius: 5%;
     cursor: pointer;
 
     &--primary {
-        background-color: #ff6a07;
+        background-color: $primary-color;
         color: white;
         font-weight: 200;
         border: none;
     }
     &--secondary {
-        border: #ff6a07 solid 1px;
-        color: #ff6a07;
+        border: $primary-color solid 1px;
+        color: $primary-color;
     }
 }
 .highlight {
@@ -81,7 +83,7 @@ body {
         width: 100%;
         height: 50%;
         bottom: 0;
-        background-color: #ff6a077e;
+        background-color: lighten($color: $primary-color, $amount: 20%);
     }
 }
 .illustration {
@@ -90,14 +92,56 @@ body {
     background-size: contain;
     background-position: center;
     position: absolute;
-    left: 50%;
-    width: 50%;
+    left: 60%;
+    width: 40%;
     height: 100vh;
     z-index: -1;
 }
 
+.experience {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 
+    &__tabs {
+        max-width: 80%;
+        color: $secondary-color;
 
+        &__title {
+            font-size: 1rem;
+        }
+
+        &__company {
+            display: flex;
+
+            &__item {
+                padding : 0.5rem 1rem;
+            
+                &--active {
+                    border-bottom: $primary-color 1px solid;
+                }
+            }
+        }
+
+        &__description {
+            &__item {
+                &__title {
+                    font-size: 2rem;
+                }
+                &__additional {
+                    font-size: 1rem;
+                }
+                &__work {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        
+    }
+
+}
 @media(max-width: 768px) {
     .illustration {
         display: none;

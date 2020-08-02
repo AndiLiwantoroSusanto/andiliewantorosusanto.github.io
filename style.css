@@ -135,9 +135,9 @@ body {
 }
 
 .experience__tabs__title {
-  padding: 0.5rem 1rem;
+  font-weight: bold;
+  padding: 0 1rem;
   font-size: 3rem;
-  margin-bottom: 1rem;
 }
 
 .experience__tabs__company {
@@ -160,14 +160,24 @@ body {
   padding: 0.5rem 1rem;
 }
 
+.experience__tabs__description__item {
+  display: none;
+}
+
+.experience__tabs__description__item--active {
+  display: block;
+}
+
 .experience__tabs__description__item__title {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
 }
 
 .experience__tabs__description__item__additional {
   font-size: 0.8rem;
   margin-bottom: 1rem;
+  font-weight: 300;
 }
 
 .experience__tabs__description__item__work {
@@ -180,6 +190,7 @@ body {
 .experience__tabs__description__item__work li {
   padding-left: 1em;
   text-indent: -1em;
+  margin-bottom: 1em;
 }
 
 .experience__tabs__description__item__work li:before {

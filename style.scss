@@ -110,9 +110,9 @@ body {
         color: $secondary-color;
 
         &__title {
-            padding: 0.5rem 1rem;
+            font-weight: bold;
+            padding: 0 1rem;
             font-size: 3rem;
-            margin-bottom: 1rem;
         }
 
         &__company {
@@ -130,13 +130,21 @@ body {
         &__description {
             padding : 0.5rem 1rem;
             &__item {
+                display: none;
+                
+                &--active {
+                    display: block;
+                }
+
                 &__title {
                     font-size: 1.5rem;
-                    font-weight: bold;
+                    font-weight: 500;
+                    margin-bottom: 0.25rem;
                 }
                 &__additional {
                     font-size: 0.8rem;
                     margin-bottom: 1rem;
+                    font-weight: 300;
                 }
                 &__work {
                     font-size: 1rem;
@@ -147,6 +155,7 @@ body {
                     li {
                         padding-left: 1em;
                         text-indent: -1em;
+                        margin-bottom: 1em;
                     }
                     
                     li:before {

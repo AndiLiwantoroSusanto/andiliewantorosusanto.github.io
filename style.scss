@@ -200,6 +200,8 @@ body {
 
     &__title {
         font-size: 3rem;
+        transition: color ease-in 0.5s;
+        cursor: pointer;
         color: $secondary-color;
         font-weight: bold;
     }
@@ -213,8 +215,11 @@ body {
 
         &__image {
             img {
-                border: $secondary-color 5px solid;
-                border-radius: 5px;
+                filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(330deg);
+
+                &:hover {
+                    filter: sepia(100%) saturate(100%) brightness(100%) hue-rotate(330deg);
+                }
             }
         }
 
@@ -246,6 +251,32 @@ body {
                 text-align: right;
             }
         }
+    }
+    &:hover {
+        .project {
+            &__title {
+                color: $primary-color;
+            }
+        }
+    }
+}
+.footer {
+    display: flex;
+    max-width: 768px;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.attribution {
+    text-align: center;
+    background-color: $primary-color;
+    padding: 1rem;
+    margin-top: 1rem;
+
+    a {
+        color: white;
+        text-decoration: none;
     }
 }
 @media(max-width: 768px) {

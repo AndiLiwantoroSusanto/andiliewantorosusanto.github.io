@@ -315,10 +315,50 @@ body {
   display: -ms-flexbox;
   display: flex;
   max-width: 768px;
-  margin: 0 auto;
+  margin: 10vh auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.footer__form {
+  padding: 1rem 2rem;
+  width: 50%;
+  border-right: #ff6a07 1px solid;
+}
+
+.footer__form__title {
+  font-size: 2rem;
+  color: #707070;
+}
+
+.footer__form__buttons {
+  margin-top: 1rem;
+}
+
+.footer__form input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.footer__form textarea {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.footer__socialMedia {
+  padding: 1rem 2rem;
+  width: 50%;
+  border-left: #ff6a07 1px solid;
+}
+
+.footer__socialMedia__title {
+  font-size: 2rem;
+  color: #707070;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .attribution {

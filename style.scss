@@ -263,11 +263,48 @@ body {
 .footer {
     display: flex;
     max-width: 768px;
-    margin: 0 auto;
+    margin: 10vh auto;
     justify-content: center;
 
-}
+    &__form {
+        padding: 1rem 2rem;
+        width: 50%;
+        border-right: $primary-color 1px solid;
 
+        &__title {
+            font-size: 2rem;
+            color: $secondary-color;
+        }
+
+        &__buttons {
+            margin-top: 1rem;
+        }
+
+        input {
+            width: 100%;
+            padding: 0.5rem;
+        }
+
+        textarea {
+            padding: 0.5rem;
+            width: 100%;
+        }
+
+    }
+
+    &__socialMedia {
+        padding: 1rem 2rem;
+        width: 50%;
+        border-left: $primary-color 1px solid;
+        &__title {
+            font-size: 2rem;
+            color: $secondary-color;
+        }
+    }
+}
+.text-center {
+    text-align: center;
+}
 .attribution {
     text-align: center;
     background-color: $primary-color;

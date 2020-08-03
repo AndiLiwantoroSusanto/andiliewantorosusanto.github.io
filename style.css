@@ -330,6 +330,7 @@ body {
 .footer__form__title {
   font-size: 2rem;
   color: #707070;
+  margin-bottom: 1rem;
 }
 
 .footer__form__buttons {
@@ -359,6 +360,10 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.marginBottom {
+  margin-bottom: 1rem;
 }
 
 .attribution {

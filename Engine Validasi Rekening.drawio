@@ -1,1 +1,231 @@
-<mxfile host="app.diagrams.net" modified="2022-08-12T04:07:45.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.3" etag="50hETkeu_P5N3xh-hDLx" type="github"><diagram id="t5xKplrfBJIDhrwAUR-L">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-12T08:55:14.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9ECXwaKuZEfSGSqkEk08" version="20.2.3" type="github">
+  <diagram id="t5xKplrfBJIDhrwAUR-L" name="Page-1">
+    <mxGraphModel dx="1261" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-1" target="VfWMDwYL2ZwxW0rNEJg2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="410" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-2" target="VfWMDwYL2ZwxW0rNEJg2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-2" value="Check Body Request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-5" target="VfWMDwYL2ZwxW0rNEJg2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-5" target="VfWMDwYL2ZwxW0rNEJg2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-5" value="is Valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-6" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="580" y="355" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-9" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-10" value="Return Code error: 01&lt;br&gt;Message : Request Body Invalid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-11" target="VfWMDwYL2ZwxW0rNEJg2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-11" value="Get Recent Validate Log" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-13" target="VfWMDwYL2ZwxW0rNEJg2-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-13" value="Exists And Less than 30 Days" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="570" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-17" target="VfWMDwYL2ZwxW0rNEJg2-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-17" target="VfWMDwYL2ZwxW0rNEJg2-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-17" value="Is Valid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="570" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-18" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-19" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="500" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-21" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="615" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-23" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-24" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-25" value="Return Code error: 02&lt;br&gt;Message : Invalid Bank Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="450" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-26" value="Return Code error: 00&lt;br&gt;Message : Bank Account Validated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="660" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-27" target="VfWMDwYL2ZwxW0rNEJg2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-27" value="Get Consumer Data From NEW ME DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-29" value="New ME DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="335" y="760" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-30" target="VfWMDwYL2ZwxW0rNEJg2-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-30" target="VfWMDwYL2ZwxW0rNEJg2-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-30" value="Individual Or Corporate" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-32" target="VfWMDwYL2ZwxW0rNEJg2-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-32" value="Hit API&lt;br&gt;Validate Corporate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-35" value="http://192.168.29.71:12103/API/BCA/ValidationCustCorporate_PS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-36" target="VfWMDwYL2ZwxW0rNEJg2-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-36" target="VfWMDwYL2ZwxW0rNEJg2-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-36" value="Success?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1020" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-39" target="VfWMDwYL2ZwxW0rNEJg2-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-39" value="Hit API&lt;br&gt;Validate Individu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-41" target="VfWMDwYL2ZwxW0rNEJg2-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-41" target="VfWMDwYL2ZwxW0rNEJg2-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-41" value="Success?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1030" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-43" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1045" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-44" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1055" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-47" value="http://192.168.29.71:12103/API/BCA/ValidationCustIndividu_PS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-48" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1015" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-50" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1030" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-52" target="VfWMDwYL2ZwxW0rNEJg2-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-52" value="Hit Check Autodebet API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-55" target="VfWMDwYL2ZwxW0rNEJg2-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-55" target="VfWMDwYL2ZwxW0rNEJg2-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-55" value="Success?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-57" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1295" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-59" value="Body&amp;nbsp;&lt;br&gt;{&lt;br&gt;Appid,&lt;br&gt;Mid&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-60" value="http://192.168.29.71:12103/API/BCA/ValidationAutodebet_PS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-62" target="VfWMDwYL2ZwxW0rNEJg2-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-62" value="Simpan Hasil API Ke Log" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-63" target="VfWMDwYL2ZwxW0rNEJg2-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VfWMDwYL2ZwxW0rNEJg2-63" target="VfWMDwYL2ZwxW0rNEJg2-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-63" value="Rekening Valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-66" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1535" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-67" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1690" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-73" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-74" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-75" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1030" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-76" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1030" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-77" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-78" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-79" value="Return Code error: 00&lt;br&gt;Message : Bank Account Validated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1690" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-80" value="Return Code error: 02&lt;br&gt;Message : Invalid Bank Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1530" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-81" value="Return Code error: 05&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Return%20Code%20error%3A%2002%26lt%3Bbr%26gt%3BMessage%20%3A%20Invalid%20Bank%20Account%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22130%22%20y%3D%221530%22%20width%3D%22150%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;Message : Api Autodeber Error" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1295" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-82" value="Return Code error: 03&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Return%20Code%20error%3A%2002%26lt%3Bbr%26gt%3BMessage%20%3A%20Invalid%20Bank%20Account%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22130%22%20y%3D%221530%22%20width%3D%22150%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;Message : Api Validate Corp Error" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="990" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VfWMDwYL2ZwxW0rNEJg2-83" value="Return Code error: 04&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Return%20Code%20error%3A%2002%26lt%3Bbr%26gt%3BMessage%20%3A%20Invalid%20Bank%20Account%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22130%22%20y%3D%221530%22%20width%3D%22150%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;Message : Api Validate Individual Error" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="990" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -7,7 +7,7 @@ export default function Home() {
       <Layout>
         <div className="w-screen h-screen flex">
           <div className="m-auto flex justify-center w-screen">
-            <div className="w-5/12">
+            <div className="w-5/12 space-y-4">
               <h2>
                 Hello! My Name Is
               </h2>
@@ -15,10 +15,10 @@ export default function Home() {
                 Andi Liwantoro Susanto
               </h6>
               <h2 className="text-xl">
-                Application Development Specialist at BCA Finance
+                Application Development <span className="highlight">Specialist</span> at BCA Finance
               </h2>
             </div>
-            <div className="w-4/12 gap-y-2">
+            <div className="w-4/12 space-y-4">
               <p>
                 My first spark in code was when i make a scipt for my favorite game! minecraft. 
                 it was an amazing, a simple text can make something that i can see and play. 
@@ -28,7 +28,8 @@ export default function Home() {
                 Currently, I lead a project that will transform BCA Finance to a better loan company!.
               </p>
               <p>
-                I want to have more knowledge to be a better engineer
+                I want to have more knowledge to be a better engineer. this is just a temporary text
+                ill try to improve the grammar and stuff later on
               </p>
             </div>
           </div>

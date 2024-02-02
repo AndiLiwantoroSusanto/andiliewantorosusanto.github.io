@@ -15,21 +15,19 @@ export default function Home() {
                 Andi Liwantoro Susanto
               </h6>
               <h2 className="text-xl">
-                Application Development <span className="highlight">Specialist</span> at BCA Finance
+                Software <span className="highlight">Engineer</span> at BCA Finance
               </h2>
             </div>
             <div className="w-4/12 space-y-4">
               <p>
-                My first spark in code was when i make a scipt for my favorite game! minecraft. 
-                it was an amazing, a simple text can make something that i can see and play. 
-                After that i knew i want to delve this hobby of mine to build something bigger.
+                My first spark in coding ignited when I made a mod for a game called Minecraft. 
+                Being able to change the game mechanics by just typing code was (and still is) 
+                something cool to me. And I plan not to stop there.
               </p>
               <p>
-                Currently, I lead a project that will transform BCA Finance to a better loan company!.
-              </p>
-              <p>
-                I want to have more knowledge to be a better engineer. this is just a temporary text
-                ill try to improve the grammar and stuff later on
+                Now, I've been given the opportunity to change mechanics in the real world! 
+                I've made impacts in multiple industries, including education, government, and 
+                currently, one of the biggest loan companies, BCA Finance.
               </p>
             </div>
           </div>
@@ -39,35 +37,84 @@ export default function Home() {
             <div className="flex w-screen justify-center space-x-12">
               <div>
                 <div>
-                  NAMA PERUSAHAAN
+                  BCA Finance
                 </div>
                 <div>
                   <div>
                     <div>
-                      Jabatan Sekarang
+                      Application Development Specialist
                     </div>
                     <div>
-                      (2022 - current)
+                      (2021 - current)
                     </div>
                   </div>
                   <div>
                     <div>
-                      Jabatan Sebelumnya
+                      Management Trainee (Tech)
                     </div>
                     <div>
-                      (2021 - 2022)
+                      (2020 - 2021)
                     </div>
                   </div>
                 </div>
               </div>
               <div>
-                DESKRIPSI KERJAAN 
+                Lead small team of developer, design system and build from scratch web application to support our
+                Core business pipeline for acquiring and validating loan application. Including,
+                integration with thirds party apps, loan calculation and automate multiple validation.
               </div>
             </div>
-            <div>
-              ITEM 2
+            <div className="flex w-screen justify-center space-x-12">
+              <div>
+                <div>
+                  Various Governments
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      Backend Engineer (Freelance)
+                    </div>
+                    <div>
+                      (2020 - 2022)
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                Creating System and integration with system,
+                integrated with existing thermal sensor.
+                Asd asdjkasdk.
+              </div>
             </div>
           </div>
+          <div className="flex w-screen justify-center space-x-12">
+              <div>
+                <div>
+                  Bina Nusantara
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      Programmer
+                    </div>
+                    <div>
+                      (2019 - 2020)
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Junior Programmer
+                    </div>
+                    <div>
+                      (2018 - 2019)
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                Create Bina Nusantara.
+              </div>
+            </div>
         </div>
       </Layout>
     </>

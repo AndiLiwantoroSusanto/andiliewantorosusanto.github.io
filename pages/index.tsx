@@ -34,6 +34,41 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="w-screen h-screen flex">
+          <div className="m-auto">
+            <div className="flex w-screen justify-center space-x-12">
+              <div>
+                <div>
+                  NAMA PERUSAHAAN
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      Jabatan Sekarang
+                    </div>
+                    <div>
+                      (2022 - current)
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Jabatan Sebelumnya
+                    </div>
+                    <div>
+                      (2021 - 2022)
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                DESKRIPSI KERJAAN 
+              </div>
+            </div>
+            <div>
+              ITEM 2
+            </div>
+          </div>
+        </div>
       </Layout>
     </>
   )
